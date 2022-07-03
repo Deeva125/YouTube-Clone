@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: whitek;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+}
+
+#menu{
+    width: 40px;
+}
+
+#logo{
+    height: 40px;
+}
+
+.center-nav{
+    display: flex;
+    align-items: center;
+    width: 630px;
+    justify-content: space-around;
+}
+
+input{
+    width: 480px;
+    height: 30px;
+}
+
+#search{
+    width: 30px;
+    margin-right: 50px;
+}
+
+#mic{
+    height: 30px;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 225px;
+}
+
+#create{
+    width: 50px;
+}
+
+#apps{
+    width: 25px;
+    height: 25px;
+}
+
+#notifications{
+    height: 35px;
+}
+
+#user{
+    width: 40px;
+}
+
+.main-container{
+    margin: 5px;
+    display: flex;
+}
+
+.sidebar{
+    margin: 5px;
+    height: 490px;
+    width: 20%;
+}
+
+.sidebar hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebar p{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+}
+
+.sidebar p:hover{
+    background-color: lightgray;
+}
+
+.side-icon{
+    width: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}   
+
+.sidebar h3{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+.subs img{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;}
+    
+   
+
+.container{
+    margin: 5px;
+    width: 100%;
+}
+
+.suggestions{
+    height: 40px;
+    width: 100%;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.712);
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: auto;
+}
+
+.suggestions span{
+    border: solid 1px gray;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 237, 237);
+    transition: 0.5s;
+}
+
+.suggestions span:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.videos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    background-color: whitesmoke;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.vid{
+    margin-bottom: 50px;
+    width: 250px;
+}
+
+.vid p{
+    margin-left: 50px;
+    font-size: small;
+    color: gray;
+}
+
+.vidtitle{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.vidtitle p{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+}
+
+.vidtitle img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
